@@ -11,7 +11,7 @@ function QuitGame () {
 function StartGame (level : String) {
 	Application.LoadLevel(level); //Application.LoadLevel(level);
 }
-
+/*
 function SetGameVolume (vol : float){
 
 	music.volume = vol;
@@ -26,4 +26,5 @@ function Start (){
 		mManager.name = musicPrefab.name;
 		DontDestroyOnLoad (mManager);
 	}
+    */
 }
